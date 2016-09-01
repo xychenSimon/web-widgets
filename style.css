@@ -1,6 +1,7 @@
 html, body, .bar-roller, .bar-roller section, .container{
     height: 100%;
     margin: 0;
+    font-family: arial, serif;
 }
 
 *, *:after, *:before {
@@ -123,6 +124,11 @@ html, body, .bar-roller, .bar-roller section, .container{
 	background-size: cover;
 }
 
+section{
+/*    display: block;*/
+        overflow-y:scroll;
+}
+
 #section1{
     background: tranparent;
     background-size: 70%;
@@ -141,16 +147,81 @@ html, body, .bar-roller, .bar-roller section, .container{
 }
 
 #intro .intro-container{
-    border:1px solid black;
-    width: 90%;
-    height: 90%;
+    width: 60%;
+    height: auto;
     position: relative;
     background: #fff3e6;
-    margin: auto;
-    top: 5%;
+    margin:6% auto;
+/*
+    top: 15%;
     left: 0;
     bottom: 0;
-    right: 0;}
+    right: 0;
+*/
+}
+
+#brief{
+    width:95%;
+    height: 40%;
+    margin: auto;    
+    text-align: center;
+}
+
+#brief h1{
+    background: lightgreen;
+    font-size: 3em;
+    font-weight: 100;
+    color: #669999;
+    padding: 10px;
+    margin: auto;
+    padding-top: 10%;
+}
+
+#brief h3{
+    background: lightblue;
+    font-size: 1.2em;
+    font-weight: 100;
+    color: #669999;
+    padding: 0px;
+    margin: auto;
+}
+
+#me{
+    color: #006666;
+}
+
+#brief p{
+    background: lightyellow;
+    font-size: 1em;
+    font-weight: 100;
+    color: #669999;
+    padding: 0px;
+    margin: auto;
+}
+
+#self-intro{
+    width:95%;
+    height: auto;
+    background: white;
+    margin:auto;
+    margin-top: 5%;
+}
+
+#self-intro img{
+    width: 43%;
+    height: 380px;
+    background-image: url(images/IMG_1930.jpg);
+    background-position:center;
+/*    display: inline-block;*/
+}
+
+#simon{
+    display: inline-block;
+    float: right;
+    width: 53%;
+    height: 380px;
+    background: lightblue;
+}
 
 #WeatherApp{
     background:#0066cc;
