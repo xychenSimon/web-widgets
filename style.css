@@ -110,11 +110,11 @@ html, body, .bar-roller, .bar-roller section, .container{
 }
 
 /* REmove the comment after adding the js to add and remove class*/
-/*
+
 .active{
     background: cyan;
 } 
-*/
+
 
 .bar-roller section{
     position: relative;
