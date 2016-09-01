@@ -1,10 +1,3 @@
-// $(function(){
-//     $("#nav").selectable();
-//     // $("#section1").click(function(){
-//     // 	$("#section1").toggle();
-//     // 	// alert("rubbish jquery");
-//     // });
-// });
 var prevPageNum = 0;
 $(function(){
 	// $("#nav").find("a").click(function(){
