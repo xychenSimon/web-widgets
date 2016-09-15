@@ -1,2 +1,3 @@
-# http://xychenSimon.github.io
-personal_web
+#
+-personal web codding practice
+-some other widgets (continuously adding)
